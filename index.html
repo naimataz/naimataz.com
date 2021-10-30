@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naima Mamataz</title>
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_7URPO1Mw0TNma1DhV3ZsT");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#"><span>NM</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#experiences" class="menu-btn">Experience</a></li>
+          <li><a href="#projects" class="menu-btn">Projects</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">👋 Hello, my name is</div>
+        <div class="text-2">Naima Mamataz</div>
+        <div class="text-3">I'm a <span class="typing"></span></div>
+        <div class="social-icons" style="margin-top: 25px;">
+          <a class="social-icon" href="https://www.linkedin.com/in/naima-mamataz/"><i class="fab fa-linkedin-in"></i></a>
+          <a class="social-icon" href="https://github.com/naimataz"><i class="fab fa-github"></i></a>
+          <a class="social-icon" href="https://www.facebook.com/naima.mamataz/"><i class="fab fa-facebook"></i></a>
+          <a class="social-icon" href="https://twitter.com/naimataz"><i class="fab fa-twitter"></i></a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images/aboutnaima.png" alt="" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            I'm Naima and Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            I'm currently a senior studying Computer Science & Economics at the City University of New York, Hunter College graduating in August 2022.
+            <br></br>
+            Being able to develop innovations that could potentially enhance the quality of life for several individuals is something that I am incredibly passionate about. 
+                   
+            I believe that building a product while keeping empathetic values in mind for the user is what makes a product successful. I’ve brought these values at my previous experiences, and look forward to implementing these same values in my upcoming experiences as well!
+            <br></br>
+            In my free time, I'm probably creating art on <a href="https://artbynaima.wordpress.com/">artbynaima</a>, working on random coding projects on <a href="https://glitch.com/@naimataz/naimas-glitch-projects">glitch</a>, designing graphics, or spending time with my family!
+          </p>
+          <!-- <a href="{{GOOGLE DRIVE LINK FOR RESUME}}">Download
+            Resume</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experiences" id="experiences">
+    <div class="max-width">
+      <h2 class="title">Experience & <a href="images/Naima Mamataz - Resume.pdf">Resume</a></h2>
+
+      <div class="timeline">
+        <ul style="line-height: 2.5rem">
+          <li class="date" data-date="Jun '21 - Aug '21" style="font-family: 'Poppins'">
+            <h1>Software Engineer Intern, <i style="color:#005262">Verizon</i></h1> 
+            <p>
+              I developed an Augmented Reality installation experience for 5G Home devices using React Native.
+            </p>
+          </li>
+          <li class="date" data-date="Nov '20 - May '21" style="font-family: 'Poppins'">
+            <h1>Product Development Fellow, <i style="color:#005262">the wit project</i></h1>
+            <p>
+              I reimagined Urban Institute's virtual workplace for over 500 employees by designing a new intranet solution and associated tooling informed by user research.
+            </p>
+          </li>
+          <li class="date" data-date="Jan '21" style="font-family: 'Poppins'">
+            <h1>GTS Intern, <i style="color:#005262">Verizon</i></h1>
+            <p>
+              I refined a machine learning model that identifies keystroke sign-in verification using Python.
+            </p>
+          </li>
+          <li class="date" data-date="May '20" style="font-family: 'Poppins'">
+            <h1>Technical Design Consultant, <i style="color:#005262">RentCity.Co</i></h1>
+            <p>
+              I presented comprehensive feedback on the UX/UI design of a review form and increased client engagement. 
+            </p>
+          </li>
+          <li class="date" data-date="Jan '20" style="font-family: 'Poppins'">
+            <h1>Product Development Intern, <i style="color:#005262">Best-Fit App</i></h1>
+            <p>
+              I structured a product roadmap and conducted user research to configure a specific solution that would encourage users to return to the application. 
+            </p>
+          </li>
+          <li class="date" data-date="Jul '19" style="font-family: 'Poppins'">
+            <h1>Summer Guild Intern, <i style="color:#005262">Break Through Tech</i></h1>
+            <p>
+              I developed an interactive website using HTML, CSS, and JavaScript that directs individuals to reliable organizations and efficiently provides aid to others who are affected by humanitarian crises.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+      
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="max-width">
+      <h2 class="title">Projects</h2>
+      <ul class="fa-ul mb-0">
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/portfolio-ui.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> </h5>
+                <p class="card-text"> </p>
+                <a href="https://www.figma.com/file/oo217XopzQ4PLA7c8qsb4u/Urban-Homepage?node-id=0%3A1" class="btn btn-primary" style="font-family:'open sans';">Check this out!</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/portfolio-bestfit.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> </h5>
+                <p class="card-text"> </p>
+                <a href="https://xd.adobe.com/view/222a6e96-8549-4789-5763-ccb93dcfdee9-541b/?fullscreen" class="btn btn-primary" style="font-family:'open sans';">Check this out!</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/portfolio-craving.png" class="card-img-top" alt="...">
+              <div class="card-body" style='margin-left: 70px;'>
+                <h5 class="card-title" style="color: #005262; font-size: 20px;"> Coming soon... 🙊 </h5>
+                <p class="card-text"> </p>
+                <!-- <a href="http://www.homeawaysitter.com/" class="btn btn-primary" style="font-family:'open sans';">Check out this project here!</a> -->
+              </div>  
+     <!-- New Set of Cards -->
+        </div>
+        <ul class="fa-ul mb-0">
+          <div class="card-deck">
+              <div class="card" style='margin-top:50px; margin-left: -20px;' >
+                <img src="images/portfolio-helpinghand.png"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> </h5>
+                  <p class="card-text"> </p>
+                  <a href="https://helpinghand2.glitch.me/" class="btn btn-primary" style="font-family:'open sans';">Check this out!</a>
+                </div>
+              </div>
+              <div class="card" style='margin-top:50px' >
+                <img src="images/portfolio-chatbot.png" class="card-img-top" alt="...">
+                <div class="card-body" >
+                  <h5 class="card-title"> </h5>
+                  <p class="card-text"> </p>
+                  <a href="https://glitch.com/~chatbotfriend" class="btn btn-primary" style="font-family:'open sans';">Check this out!</a>
+                </div>
+              </div>
+              <div class="card" style='margin-top:50px; margin-right: 15px;'>
+                <img src="images/portfolio-simulation.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> </h5>
+                  <p class="card-text"> </p>
+                  <a href="https://glitch.com/~naima-future" class="btn btn-primary" style="font-family:'open sans';">Check this out!</a>
+                </div>  
+      </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative & technical skills.
+          </div>
+          <p class="paragraph-2">
+            <b>Technical:</b> HTML/CSS, JavaScript, React Native, Python, C++
+            <br></br>
+            <b>Software:</b> Microsoft Office, Jira, Postman, PostgreSQL, Postico, Marvel, Sketch, Figma, Adobe XD & Photoshop            
+          </p>
+          <!-- <a href="#about">Read More</a> -->
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon">
+            <img src="images\skill-icons\icons8-adobe-xd.svg" alt="adobexd" id="adobexd-icon">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon">
+            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon">
+          <!-- </div class="icons">
+                <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon">
+                <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon">
+                <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon">
+                <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon">
+          <div> -->
+
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Let's Get in Touch!</div>
+          <p class="paragraph-3">Thanks for stopping by my page! Feel free to reach out to me directly through here or you can email me!
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title"><b>Naima Mamataz</b></div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Location</div>
+                <div class="sub-title"><b>New York City</b></div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title"><b>Naimaataz@gmail.com</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">
+            Message Me!
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">Naima Mamataz</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+          <a href="{{YOUR LINKEDIN}}"><i class="fab fa-linkedin"></i></a>
+          <a href="{{YOUR GITHUB}}"><i class="fab fa-github"></i></a>
+          <a href="{{YOUR TWITTER}}"><i class="fab fa-twitter"></i></a>
+          <a href="{{YOUR FACEBOOK}}"><i class="fab fa-facebook"></i></a>
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+</body>
+
+</html>
