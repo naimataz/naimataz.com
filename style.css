@@ -437,10 +437,10 @@ section .title::after{
     /* content: ""; */
 }
 .projects .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(20% - 20px);
     text-align:center;
     background:none;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -476,7 +476,7 @@ section .title::after{
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 0px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
   }
   .card > hr {
@@ -571,7 +571,7 @@ section .title::after{
   .card-img-top,
   .card-img-bottom {
     flex-shrink: 0;
-    width: 100%;
+    width: 70%;
   }
   
   .card-img,
@@ -597,6 +597,7 @@ section .title::after{
       margin-left: -0.75rem;
     }
     .card-deck .card {
+      width: 100%;
       flex: 1 0 0%;
       margin-right: 0.75rem;
       margin-bottom: 0;
@@ -686,8 +687,8 @@ section .title::after{
     background-color: #005262;
     /* border-color: #005262; */
     border: 10px solid #02505B;
-    border-radius: 5px;
-    display: flex;
+    border-radius: 10px;
+    display: 300px;
     align-items: center;
     justify-content: center;
   }
@@ -715,8 +716,6 @@ section .title::after{
   .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
   }
-  
-
 
 
 /* Skills Section Styling */
